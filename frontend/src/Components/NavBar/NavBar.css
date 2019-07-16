@@ -1,0 +1,32 @@
+.ml-auto a {
+  text-align: center;
+  text-decoration: none;
+  color: #f36c6c !important;
+  font-family: Henny Penny, "sans-serif";
+  letter-spacing: 2px;
+  font-size: 120%;
+}
+
+.ml-auto:hover a:hover {
+  color: #e28e5e !important;
+}
+
+.WCS {
+  font-family: Henny Penny;
+  font-size: 150%;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #f36c6c,
+    #f36c6c,
+    #eb8258,
+    #eb8258
+  );
+  transition: 1s all ease;
+  transform: rotate(-4deg);
+}
+
+.WCS:hover {
+  transform: rotate(360deg);
+}

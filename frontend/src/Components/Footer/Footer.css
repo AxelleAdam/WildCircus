@@ -1,0 +1,58 @@
+.social-network {
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.wildicon {
+  margin-left: 15px;
+  width: 70px;
+  transition: 1s all ease;
+  margin: 0.5%;
+}
+.fbicon {
+  width: 35px;
+}
+.iconRS:hover {
+  filter: none;
+}
+.footer {
+  position: sticky;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  margin: auto;
+  width: 100% !important;
+  border-top: 3px solid rgb(230, 68, 100);
+  background: linear-gradient(0deg, #eeeeeece, #c9c9c9ce);
+  color: rgb(230, 68, 100);
+  overflow: hidden;
+}
+
+.footerElements {
+  display: inline-block;
+}
+.wild-code-school {
+  margin: 0;
+  margin-right: -15px;
+  font-size: 50%;
+  letter-spacing: 1px;
+  font-family: open sans, "sans-serif";
+  text-transform: uppercase;
+  text-align: right;
+  color: rgb(116, 116, 116);
+}
+
+.wild-code-school a {
+  color: rgb(230, 68, 100);
+  text-shadow: #fdfdfd 0 1px 0;
+}
+
+.RS {
+  font-family: Henny Penny, "sans-serif";
+  font-size: 90%;
+}
