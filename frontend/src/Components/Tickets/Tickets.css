@@ -1,0 +1,14 @@
+.ticketsButton {
+  background: lightgrey;
+  border: 1px solid #fdfdfd;
+  color: #f36c6c;
+  text-shadow: 0 2px 0 #fdfdfd;
+  width: 3%;
+  height: 10% !important;
+}
+.titleTicket {
+  margin-top: 15px;
+  font-family: Henny Penny, "sans-serif";
+  color: #e28e5e !important;
+  text-shadow: 0 2px 0 #fdfdfd;
+}

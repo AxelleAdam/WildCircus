@@ -8,8 +8,10 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
-  ModalFooter} from "reactstrap";
+  ModalFooter
+} from "reactstrap";
 import "./Contact.css";
+import Upload from "./UploadFile.jsx";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -71,9 +73,12 @@ class Contact extends React.Component {
                 />
               </FormGroup>
               <FormGroup>
+                <Upload />
+              </FormGroup>
+              {/* <FormGroup>
                 <Label for="exampleFile">File</Label>
                 <Input type="file" name="file" id="exampleFile" />
-              </FormGroup>
+              </FormGroup> */}
             </Form>
           </ModalBody>
           <ModalFooter>
