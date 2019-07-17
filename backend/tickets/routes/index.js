@@ -40,7 +40,11 @@ app.post("/contact", (req, res) => {
     from: `${email}`,
     to: "betinvestwild@gmail.com",
     subject: subject,
-    html: `<h4>${subject}</h4> <h3>Message de : ${name}, vous pouvez me contacter à cette adresse ; ${email}</h3> <br/> <p>${message}</p> ${file}`
+    html: `<h4>${subject}</h4> <br/>
+    <h3>Vous avez reçu un message de ${name}, vous pouvez le contacter à cette adresse ; ${email}</h3> 
+    <br/>
+    <p>${message}</p>
+    <br/> ${file}`
   };
 
   transporter.sendMail(HelperOptions, (error, info) => {

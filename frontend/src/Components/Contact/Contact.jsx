@@ -34,6 +34,7 @@ class Contact extends React.Component {
       modal: !prevState.modal
     }));
   }
+
   sendMail = () => {
     axios.post(`http://localhost:8088/contact`, {
       name: this.state.name,
