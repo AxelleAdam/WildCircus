@@ -1,8 +1,9 @@
 import React from "react";
+import Counter from "./Counter";
 
 class Tickets extends React.Component {
   render() {
-    return <p>Tickets</p>;
+    return <Counter />;
   }
 }
 

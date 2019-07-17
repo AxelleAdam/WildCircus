@@ -18,7 +18,7 @@ class Footer extends React.Component {
               <Col>
                 <h4 className="RS">Social Networks</h4>
               </Col>
-              <Col>
+              <Col className="iconsRS">
                 <a
                   href="https://www.facebook.com/profile.php?id=339727919509400&ref=br_rs"
                   target="blank"
@@ -30,9 +30,8 @@ class Footer extends React.Component {
                     className="fbicon"
                   />
                 </a>
-
                 <a
-                  href="https://twitter.com/bet_2_invest"
+                  href="https://wildcodeschool.fr/"
                   target="blank"
                   rel="noreferrer noopener"
                 >

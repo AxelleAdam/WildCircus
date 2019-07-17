@@ -9,17 +9,15 @@
 }
 
 .wildicon {
-  margin-left: 15px;
-  width: 70px;
+  margin-right: -5px;
+  width: 65px;
   transition: 1s all ease;
-  margin: 0.5%;
 }
+
 .fbicon {
-  width: 35px;
+  width: 30px;
 }
-.iconRS:hover {
-  filter: none;
-}
+
 .footer {
   position: sticky;
   margin-top: 10px;
