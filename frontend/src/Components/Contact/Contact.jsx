@@ -75,10 +75,6 @@ class Contact extends React.Component {
               <FormGroup>
                 <Upload />
               </FormGroup>
-              {/* <FormGroup>
-                <Label for="exampleFile">File</Label>
-                <Input type="file" name="file" id="exampleFile" />
-              </FormGroup> */}
             </Form>
           </ModalBody>
           <ModalFooter>

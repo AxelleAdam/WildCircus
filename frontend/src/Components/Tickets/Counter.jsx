@@ -24,18 +24,15 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
-        <h2 className="titleTicket">Buying Tickets</h2>
-        <div>
-          <p>You can buy your tickets here</p>
-          <button onClick={this.decrement} className="ticketsButton">
-            -
-          </button>
-          <span>{this.state.count} ticket, </span>
-          <span>{this.state.calcul} €</span>
-          <button onClick={this.increment} className="ticketsButton">
-            +
-          </button>
-        </div>
+        <p>You can buy your tickets here</p>
+        <button onClick={this.decrement} className="ticketsButton">
+          -
+        </button>
+        <span>{this.state.count} ticket, </span>
+        <span>{this.state.calcul} €</span>
+        <button onClick={this.increment} className="ticketsButton">
+          +
+        </button>
       </div>
     );
   }

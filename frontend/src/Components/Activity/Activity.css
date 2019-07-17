@@ -1,0 +1,35 @@
+.navBar {
+  margin-left: 15%;
+  color: #f36c6c;
+}
+
+.navBar a {
+  color: #f36c6c;
+  font-family: Henny Penny, "sans-serif";
+}
+
+.activityTitle {
+  margin-top: 15px;
+  font-family: Henny Penny, "sans-serif";
+  color: #e28e5e !important;
+  text-shadow: 0 2px 0 #fdfdfd;
+}
+
+.items {
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+}
+
+.items img {
+  height: 80vh;
+}
+@media screen and (max-width: 768px) {
+  .items {
+    width: 100vw;
+    height: 80vh;
+  }
+  .items img {
+    height: 100%;
+  }
+}
