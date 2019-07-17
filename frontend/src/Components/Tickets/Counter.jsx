@@ -24,7 +24,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
-        <p>You can buy your tickets here</p>
+        <p className="buyingTickets">You can buy your tickets here</p>
         <button onClick={this.decrement} className="ticketsButton">
           -
         </button>

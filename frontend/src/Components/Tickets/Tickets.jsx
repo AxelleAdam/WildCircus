@@ -12,6 +12,15 @@ import {
 } from "reactstrap";
 
 class Tickets extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      ticket: ""
+    };
+  }
+
   render() {
     return (
       <Container>
@@ -85,21 +94,13 @@ class Tickets extends React.Component {
               </FormGroup>
             </Col>
           </Row>
-          <Row>
-            <Col>
-              <FormGroup>
-                <Counter />
-              </FormGroup>
-            </Col>
-          </Row>
-          <FormGroup check>
-            <Input type="checkbox" name="check" id="exampleCheck" />
-            <Label for="exampleCheck" check>
-              Confirm
-            </Label>
-          </FormGroup>
         </Form>
-        <Button>Send</Button>
+        <Counter
+          onChange={e => this.onInputChange(e)}
+          value={this.state.name}
+        />
+
+        <Button className="ticketsButton">Send</Button>
       </Container>
     );
   }

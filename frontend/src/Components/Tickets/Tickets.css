@@ -5,10 +5,21 @@
   text-shadow: 0 2px 0 #fdfdfd;
   width: 3%;
   height: 10% !important;
+  margin: 10px;
+}
+.ticketsButton:hover {
+  background: #ebebeb;
+  border: transparent;
+  color: #e28e5e;
 }
 .titleTicket {
   margin-top: 15px;
   font-family: Henny Penny, "sans-serif";
   color: #e28e5e !important;
   text-shadow: 0 2px 0 #fdfdfd;
+}
+.buyingTickets {
+  font-family: Open Sans, "sans-serif";
+  font-size: 100%;
+  text-decoration: underline;
 }
